@@ -17,4 +17,4 @@ There is also a trendline included on the figure using the polyfit function of M
 
 Important note: beyond year 40 on the figure is the prediction trendline.
 
-![alt text](http://url/to/final_figure.png)
+![plot](./ThisPC/Documents/meteorology/final_figure.png)
