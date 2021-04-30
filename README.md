@@ -1,4 +1,4 @@
-# Global_Warming_mapping
+# Global-Warming-Mapping
 
 This project uses a downloaded JSON file from the OpenWeatherMap API which includes hourly weather reports for a set of coordinates (local to me) over a 40 year period.
 The JSON file is too large to include in this repository, but here is a snippet of the data to give an idea of the information provided:
