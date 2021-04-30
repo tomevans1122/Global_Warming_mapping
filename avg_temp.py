@@ -40,7 +40,7 @@ def straight_line_fit(x, y):
     return line
 
 
-def prediction_line_fit(x):                     # utilises gradient and intersection point of polyfit function
+def prediction_line_fit(x):                 # utilises gradient and intersection point of polyfit function
     prediction = (0.01474717689121748 * x) + 8.845128163828806
     return prediction
 
