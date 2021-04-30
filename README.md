@@ -15,6 +15,6 @@ I used Numpy in order to organise the API data in arrays ready for plotting usin
 The figure includes 40 data points - the average temperature over 52 weeks of every year from 1981 to 2021. 
 There is also a trendline included on the figure using the polyfit function of Matplotlib. I've extended the trendline to continue into the future to provide a basic prediction of the temperature rise over time (if all variables remain the same!!).
 
-Important note: beyond year 40 on the figure is the prediction trendline.
+**Important note**: beyond year 40 on the figure is the prediction trendline.
 
-![plot](./ThisPC/Documents/meteorology/final_figure.png)
+![figure](/meteorology/final_figure.png)
