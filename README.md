@@ -2,7 +2,7 @@
 
 This project consists of two parts with different methods of obtaining the data for the final figures.
 
-# Part 1 - API
+# Part 1 - API (avg_temp.py)
 ThIS first part uses a downloaded JSON file from the OpenWeatherMap API which includes hourly weather reports for a set of coordinates (local to me) over a 40 year period.
 The JSON file is too large to include in this repository, but here is a snippet of the data to give an idea of the information provided:
 
@@ -22,8 +22,8 @@ Take a peek!
 
 **Important note**: beyond year 40 on the figure is the prediction trendline, thus there are no data points. 
 
-# Part 2 - Web Scraping
-This part uses a very simple web scraping script. The HTML/CSS of the website itself was very simple and made easier by the fact that the python code is very similar to part 1. However, there is a slight difference in the data collected. It is a series of the highest recorded temperature in the UK for a particular year, from 1900 to 2019. Thus there are 119 data points on the figure.
+# Part 2 - Web Scraping (web_scraper.py)
+This part uses a very simple web scraping script. The HTML/CSS of the website itself was very simple and made easier by the fact that the python code is very similar to part 1. However, there is a slight difference in the data collected. It is a series of the highest recorded temperature in the UK for a particular year.
 
 ## Libraries Used
 
@@ -31,6 +31,7 @@ For the web scraping I used the requests and beautiful soup libraries, and MatPl
 
 ## Figure - scraped_figure.png
 
-The figure includes 
+The figure includes 119 data points representing the highest annual temperature recorded in the UK. 
+I have again included a trendline, using the same method as the API script.
 
 
