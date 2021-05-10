@@ -1,6 +1,9 @@
 # Global-Warming-Mapping
 
-This project uses a downloaded JSON file from the OpenWeatherMap API which includes hourly weather reports for a set of coordinates (local to me) over a 40 year period.
+This project consists of two parts with different methods of obtaining the data for the final figures.
+
+# Part 1
+The first part uses a downloaded JSON file from the OpenWeatherMap API which includes hourly weather reports for a set of coordinates (local to me) over a 40 year period.
 The JSON file is too large to include in this repository, but here is a snippet of the data to give an idea of the information provided:
 
 {"dt":315532800,"dt_iso":"1980-01-01 00:00:00 +0000 UTC","timezone":0,"main":{"temp":0.72,"temp_min":-1.42,"temp_max":2.16,"feels_like":-3.27,"pressure":1013,"humidity":86},"wind":{"speed":2.6,"deg":180},"clouds":{"all":90},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"city_name":"Llangrannog","lon":-4.47,"lat":52.16}
